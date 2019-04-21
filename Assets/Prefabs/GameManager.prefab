@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1367797692623832}
+  m_IsPrefabParent: 1
+--- !u!1 &1367797692623832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4414300164245616}
+  - component: {fileID: 114885899491934350}
+  - component: {fileID: 114042505179152410}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4414300164245616
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367797692623832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114042505179152410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367797692623832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332d260ec4540aa458e1d7220187385b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xColumns: 9
+  yRows: 8
+  grid: {fileID: 1009173049149476, guid: b9e6a128c44a5044aa84360615458099, type: 2}
+  sweetPerfabs:
+  - type: 1
+    prefab: {fileID: 114006901731546960, guid: 5aa2f70da4eeb234ead4b5ac6ed366e8, type: 2}
+  - type: 2
+    prefab: {fileID: 114126958065006660, guid: 8fec22e2ab659d14fb538b3a4d8309a8, type: 2}
+  - type: 0
+    prefab: {fileID: 114646076336964692, guid: baebc9561fccfd24badce8be2aa20d31, type: 2}
+  timeText: {fileID: 114371555908023980, guid: 081c089193553d04aaeadfe5d5e7efad, type: 2}
+  scoreText: {fileID: 0}
+  finalScore: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  playscore: 0
+  timeNow: 60
+  fillTime: 0.05
+--- !u!114 &114885899491934350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367797692623832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f484a2c392fd8b44b4784261597ed96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
